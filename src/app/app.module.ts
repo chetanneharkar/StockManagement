@@ -9,6 +9,8 @@ import { StockComponent } from './stock/stock.component';
 import { SettingComponent } from './setting/setting.component';
 import { FormsModule } from '@angular/forms';
 
+import { ProductClassificationComponent } from './product-classification/product-classification.component';
+
 // const appRoutes: Routes = [
 //   // { path:'home', component: HomeComponent}
 // ];
@@ -18,7 +20,8 @@ import { FormsModule } from '@angular/forms';
     LoginComponent,
     HomeComponent,
     StockComponent,
-    SettingComponent
+    SettingComponent,
+    ProductClassificationComponent
   ],
   imports: [
     BrowserModule,
@@ -48,6 +51,6 @@ import { FormsModule } from '@angular/forms';
    ])
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [ProductClassificationComponent]
 })
 export class AppModule { }
